@@ -17,10 +17,12 @@ module.exports = (sequelize, DataTypes) => {
     familyName: DataTypes.STRING,
     firstName: DataTypes.STRING,
     familyNameJP: DataTypes.STRING,
-    firstNameJP: DataTypes.STRING
+    firstNameJP: DataTypes.STRING,
+    familyNameR: DataTypes.STRING,
+    firstNameR: DataTypes.STRING
   }, {
     sequelize,
-    modelName: 'Character',
+    modelName: 'Character'
   });
   return Character;
 };

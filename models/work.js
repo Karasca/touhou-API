@@ -17,10 +17,11 @@ module.exports = (sequelize, DataTypes) => {
     abbreviation: DataTypes.STRING,
     name: DataTypes.STRING,
     nameJP: DataTypes.STRING,
-    entryNumber: DataTypes.STRING
+    entryNumber: DataTypes.STRING,
+    nameR: DataTypes.STRING
   }, {
     sequelize,
-    modelName: 'Work',
+    modelName: 'Work'
   });
   return Work;
 };
