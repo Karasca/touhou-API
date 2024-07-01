@@ -11,6 +11,9 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      Character.belongsTo(models.Work, {
+        as: 'Work'
+      });
     }
   }
   Character.init({

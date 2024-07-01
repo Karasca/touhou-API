@@ -10,18 +10,25 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      // define association here
+      //efine association here
+      Work.hasMany(models.Character, {
+        as: 'Character'
+      });
     }
   }
   Work.init({
-    abbreviation: DataTypes.STRING,
+    abbreviation: {
+      primaryKey: true,
+      type: DataTypes.STRING,
+      autoIncrement: false,
+      allowNull: false
+    },
     name: DataTypes.STRING,
     nameJP: DataTypes.STRING,
     entryNumber: DataTypes.STRING,
     nameR: DataTypes.STRING
   }, {
     sequelize,
-    modelName: 'Work'
   });
   return Work;
 };

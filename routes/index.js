@@ -1,8 +1,6 @@
 var express = require('express');
 var router = express.Router();
-const { DataTypes, Model } = require('sequelize');
-const sequelize = require('../db'); 
-var Character = require('../models/character')(sequelize, DataTypes);
+const db = require("../models");
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -10,7 +8,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/api/characters', async function(req,res,next){
-  var characters = await Character.findAll();
+  var characters = await db.Character.findAll({include: [{model: db.Work, as:'Work'}] });
   res.status(200).json(characters);
 })
 

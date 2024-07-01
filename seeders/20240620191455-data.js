@@ -3,16 +3,251 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up (queryInterface, Sequelize) {
-    /**
-     * Add seed commands here.
-     *
-     * Example:
-     * await queryInterface.bulkInsert('People', [{
-     *   name: 'John Doe',
-     *   isBetaMember: false
-     * }], {});
-    */
-
+    await queryInterface.bulkInsert('Works', [
+      {
+        abbreviation: 'EoSD',
+        name: 'the Embodiment of Scarlet Devil',
+        nameJP: '東方紅魔郷',
+        entryNumber: '6',
+        nameR: 'とうほうこうまきょう',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        abbreviation: 'PCB',
+        name: 'Perfect Cherry Blossom',
+        nameJP: '東方妖々夢',
+        entryNumber: '7',
+        nameR: 'とうほうようようむ',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        abbreviation: 'IaMP',
+        name: 'Immaterial and Missing Power',
+        nameJP: '東方萃夢想',
+        entryNumber: '7.5',
+        nameR: 'とうほうすいむそう',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        abbreviation: 'IN',
+        name: 'Imperishable Night',
+        nameJP: '東方永夜抄',
+        entryNumber: '8',
+        nameR: 'とうほうえいやしょう',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        abbreviation: 'PoFV',
+        name: 'Phantasmagoria of Flower View',
+        nameJP: '東方花映塚',
+        entryNumber: '9',
+        nameR: 'とうほうかえいづか',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        abbreviation: 'STB',
+        name: 'Shoot the Bullet',
+        nameJP: '東方文花帖',
+        entryNumber: '9.5',
+        nameR: 'とうほうぶんかちょう',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        abbreviation: 'MoF',
+        name: 'Mountain of Faith',
+        nameJP: '東方風神録',
+        entryNumber: '10',
+        nameR: 'とうほうふうじんろく',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        abbreviation: 'SWR',
+        name: 'Scarlet Weather Rhapsody',
+        nameJP: '東方緋想天',
+        entryNumber: '10.5',
+        nameR: 'とうほうひそうてん',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        abbreviation: 'SA',
+        name: 'Subterranean Animism',
+        nameJP: '東方地霊殿',
+        entryNumber: '11',
+        nameR: 'とうほうちれいでん',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        abbreviation: 'UFO',
+        name: 'Undefined Fantastic Object',
+        nameJP: '東方星蓮船',
+        entryNumber: '12',
+        nameR: 'とうほうせいれんせん',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        abbreviation: 'HSTS',
+        name: 'Hisoutensoku',
+        nameJP: '東方非想天則',
+        entryNumber: '12.3',
+        nameR: 'とうほうひそうてんそく',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        abbreviation: 'DS',
+        name: 'Double Spoiler',
+        nameJP: '東方文花帖',
+        entryNumber: '12.5',
+        nameR: 'とうほうぶんかちょう',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        abbreviation: 'GFW',
+        name: 'Great Fairy Wars',
+        nameJP: '妖精大戦争',
+        entryNumber: '12.8',
+        nameR: 'ようせいだいせんそう',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        abbreviation: 'TD',
+        name: 'Ten Desires',
+        nameJP: '東方神霊廟',
+        entryNumber: '13',
+        nameR: 'とうほうしんれいびょう',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        abbreviation: 'HM',
+        name: 'Hopeless Masquerade',
+        nameJP: '東方心綺楼',
+        entryNumber: '13.5',
+        nameR: 'とうほうしんきろう',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        abbreviation: 'DDC',
+        name: 'Double Dealing Character',
+        nameJP: '東方輝針城',
+        entryNumber: '14',
+        nameR: 'とうほうきしんじょう',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        abbreviation: 'ISC',
+        name: 'Impossible Spell Card',
+        nameJP: '弾幕アマノジャク',
+        entryNumber: '14.3',
+        nameR: 'だんまくあまのじゃく',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        abbreviation: 'ULiL',
+        name: 'Urban Legend in Limbo',
+        nameJP: '東方深秘録',
+        entryNumber: '14.5',
+        nameR: 'とうほうしんぴろく',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        abbreviation: 'LoLK',
+        name: 'Legacy of Lunatic Kingdom',
+        nameJP: '東方紺珠伝',
+        entryNumber: '15',
+        nameR: 'とうほうかんじゅでん',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        abbreviation: 'AoCF',
+        name: 'Antimony of Common Flowers',
+        nameJP: '東方憑依花',
+        entryNumber: '15.5',
+        nameR: 'とうほうひょういばな',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        abbreviation: 'HSiFS',
+        name: 'Hidden Star in Four Seasons',
+        nameJP: '東方天空璋',
+        entryNumber: '16',
+        nameR: 'とうほうてんくうしょう',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        abbreviation: 'VD',
+        name: 'Violet Detector',
+        nameJP: '秘封ナイトメアダイアリー',
+        entryNumber: '16.5',
+        nameR: 'ひふうないとめあだいありー',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        abbreviation: 'WBaWC',
+        name: 'Wily Beast and Weakest Creature',
+        nameJP: '東方鬼形獣',
+        entryNumber: '17',
+        nameR: 'とうほうきけいじゅう',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        abbreviation: 'SFW',
+        name: 'Sunken Fossil World',
+        nameJP: '東方剛欲異聞　～ 水没した沈愁地獄',
+        entryNumber: '17.5',
+        nameR: 'とうほうごうよくいぶん　～ すいぼつしたちんしゅうじごく',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        abbreviation: 'UM',
+        name: 'Unconnected Marketeers',
+        nameJP: '東方紅龍洞',
+        entryNumber: '18',
+        nameR: 'とうほうこうりゅうどう',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        abbreviation: 'HBM',
+        name: '100th Black Market',
+        nameJP: 'バレットフィリア達の闇市場',
+        entryNumber: '18.5',
+        nameR: 'ばれっとふぃりあのやみいちば',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        abbreviation: 'UDoALG',
+        name: 'Unfinished Dream of All Living Ghost',
+        nameJP: '東方獣王園',
+        entryNumber: '19',
+        nameR: 'とうほうじゅうおうえん',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+    ])
 
     await queryInterface.bulkInsert('Characters', [
       {
@@ -23,7 +258,8 @@ module.exports = {
         familyNameR: 'はくれい',
         firstNameR: 'れいむ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: null
       },
       {
         familyName: 'Kirisame',
@@ -33,7 +269,8 @@ module.exports = {
         familyNameR: 'きりさめ',
         firstNameR: 'まりさ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: null
       },
       {
         familyName: '',
@@ -43,7 +280,8 @@ module.exports = {
         familyNameR: '',
         firstNameR: 'るーみあ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'EoSD'
       },
       {
         familyName: '',
@@ -53,7 +291,8 @@ module.exports = {
         familyNameR: '',
         firstNameR: 'だいようせい',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'EoSD'
       },
       {
         familyName: '',
@@ -63,7 +302,8 @@ module.exports = {
         familyNameR: '',
         firstNameR: 'ちるの',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'EoSD'
       },
       {
         familyName: 'Hong',
@@ -73,7 +313,8 @@ module.exports = {
         familyNameR: 'ほん',
         firstNameR: 'めいりん',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'EoSD'
       },
       {
         familyName: '',
@@ -83,7 +324,8 @@ module.exports = {
         familyNameR: '',
         firstNameR: 'こあくま',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'EoSD'
       },
       {
         familyName: 'Knowledge',
@@ -93,7 +335,8 @@ module.exports = {
         familyNameR: 'のーれっじ',
         firstNameR: 'ぱちゅりー',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'EoSD'
       },
       {
         familyName: 'Izayoi',
@@ -103,7 +346,8 @@ module.exports = {
         familyNameR: 'いざよい',
         firstNameR: 'さくや',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'EoSD'
       },
       {
         familyName: 'Scarlet',
@@ -113,7 +357,8 @@ module.exports = {
         familyNameR: 'すかーれっと',
         firstNameR: 'れみりあ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'EoSD'
       },
       {
         familyName: 'Scarlet',
@@ -123,7 +368,8 @@ module.exports = {
         familyNameR: 'すかーれっと',
         firstNameR: 'ふらんどーる',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'EoSD'
       },
       {
         familyName: 'Whiterock',
@@ -133,7 +379,8 @@ module.exports = {
         familyNameR: 'ほわいとろっく',
         firstNameR: 'れてぃ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'PCB'
       },
       {
         familyName: '',
@@ -143,7 +390,8 @@ module.exports = {
         familyNameR: '',
         firstNameR: 'ちぇん',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'PCB'
       },
       {
         familyName: 'Margatroid',
@@ -153,7 +401,8 @@ module.exports = {
         familyNameR: 'まーがとろいど',
         firstNameR: 'ありす',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'PCB'
       },
       {
         familyName: 'White',
@@ -163,7 +412,8 @@ module.exports = {
         familyNameR: 'ほわいと',
         firstNameR: 'りりー',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'PCB'
       },
       {
         familyName: 'Prismriver',
@@ -173,7 +423,8 @@ module.exports = {
         familyNameR: 'ぷりずむりばー',
         firstNameR: 'るなさ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'PCB'
       },
       {
         familyName: 'Prismriver',
@@ -183,7 +434,8 @@ module.exports = {
         familyNameR: 'ぷりずむりばー',
         firstNameR: 'めるらん',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'PCB'
       },
       {
         familyName: 'Prismriver',
@@ -193,7 +445,8 @@ module.exports = {
         familyNameR: 'ぷりずむりばー',
         firstNameR: 'りりか',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'PCB'
       },
       {
         familyName: 'Konpaku',
@@ -203,7 +456,8 @@ module.exports = {
         familyNameR: 'こんぱく',
         firstNameR: 'ようむ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'PCB'
       },
       {
         familyName: 'Saigyouji',
@@ -213,7 +467,8 @@ module.exports = {
         familyNameR: 'さいぎょうじ',
         firstNameR: 'ゆゆこ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'PCB'
       },
       {
         familyName: 'Yakumo',
@@ -223,7 +478,8 @@ module.exports = {
         familyNameR: 'やくも',
         firstNameR: 'らん',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'PCB'
       },
       {
         familyName: 'Yakumo',
@@ -233,7 +489,8 @@ module.exports = {
         familyNameR: 'やくも',
         firstNameR: 'ゆかり',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'PCB'
       },
       {
         familyName: 'Ibuki',
@@ -243,7 +500,8 @@ module.exports = {
         familyNameR: 'いぶき',
         firstNameR: 'すいか',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'IaMP'
       },
       {
         familyName: 'Nightbug',
@@ -253,7 +511,8 @@ module.exports = {
         familyNameR: 'ないとばぐ',
         firstNameR: 'りぐる',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'IN'
       },
       {
         familyName: 'Lorelei',
@@ -263,7 +522,8 @@ module.exports = {
         familyNameR: 'ろーれらい',
         firstNameR: 'みすてぃあ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'IN'
       },
       {
         familyName: 'Kamishirasawa',
@@ -273,7 +533,8 @@ module.exports = {
         familyNameR: 'かみしらさわ',
         firstNameR: 'けいね',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'IN'
       },
       {
         familyName: 'Inaba',
@@ -283,7 +544,8 @@ module.exports = {
         familyNameR: 'いなば',
         firstNameR: 'てゐ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'IN'
       },
       {
         familyName: '',
@@ -293,7 +555,8 @@ module.exports = {
         familyNameR: '',
         firstNameR: 'れいせん・うどんげいん・いなば',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'IN'
       },
       {
         familyName: 'Yagokoro',
@@ -303,7 +566,8 @@ module.exports = {
         familyNameR: 'やごころ',
         firstNameR: 'えいりん',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'IN'
       },
       {
         familyName: 'Houraisan',
@@ -313,7 +577,8 @@ module.exports = {
         familyNameR: 'ほうらいさん',
         firstNameR: 'かぐや',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'IN'
       },
       {
         familyName: 'Fujiwara',
@@ -323,7 +588,8 @@ module.exports = {
         familyNameR: 'ふじわら',
         firstNameR: 'もこう',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'IN'
       },
       {
         familyName: 'Shameimaru',
@@ -333,7 +599,8 @@ module.exports = {
         familyNameR: 'しゃめいまる',
         firstNameR: 'あや',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'PoFV'
       },
       {
         familyName: 'Melancholy',
@@ -343,7 +610,8 @@ module.exports = {
         familyNameR: 'めらんこりー',
         firstNameR: 'めでぃすん',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'PoFV'
       },
       {
         familyName: 'Kazami',
@@ -353,7 +621,8 @@ module.exports = {
         familyNameR: 'めらんこりー',
         firstNameR: 'めでぃすん',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'PoFV'
       },
       {
         familyName: 'Onozuka',
@@ -363,7 +632,8 @@ module.exports = {
         familyNameR: 'おのづか',
         firstNameR: 'こまち',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'PoFV'
       },
       {
         familyName: 'Shiki',
@@ -373,7 +643,8 @@ module.exports = {
         familyNameR: 'しき',
         firstNameR: 'えいき',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'PoFV'
       },
       {
         familyName: 'Aki',
@@ -383,7 +654,8 @@ module.exports = {
         familyNameR: 'あき',
         firstNameR: 'しずは',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'MoF'
       },
       {
         familyName: 'Aki',
@@ -393,7 +665,8 @@ module.exports = {
         familyNameR: 'あき',
         firstNameR: 'みのりこ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'MoF'
       },
       {
         familyName: 'Kagiyama',
@@ -403,7 +676,8 @@ module.exports = {
         familyNameR: 'かぎやま',
         firstNameR: 'ひな',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'MoF'
       },
       {
         familyName: 'Kawashiro',
@@ -413,7 +687,8 @@ module.exports = {
         familyNameR: 'かわしろ',
         firstNameR: 'にとり',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'MoF'
       },
       {
         familyName: 'Inubashiri',
@@ -423,7 +698,8 @@ module.exports = {
         familyNameR: 'いぬばしり',
         firstNameR: 'もみじ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'MoF'
       },
       {
         familyName: 'Kochiya',
@@ -433,7 +709,8 @@ module.exports = {
         familyNameR: 'こちや',
         firstNameR: 'さなえ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'MoF'
       },
       {
         familyName: 'Yasaka',
@@ -443,7 +720,8 @@ module.exports = {
         familyNameR: 'やさか',
         firstNameR: 'かなこ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'MoF'
       },
       {
         familyName: 'Moriya',
@@ -453,7 +731,8 @@ module.exports = {
         familyNameR: 'もりや',
         firstNameR: 'すわこ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'MoF'
       },
       {
         familyName: 'Nagae',
@@ -463,7 +742,8 @@ module.exports = {
         familyNameR: 'ながえ',
         firstNameR: 'いく',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'SWR'
       },
       {
         familyName: 'Hinanawi',
@@ -473,7 +753,8 @@ module.exports = {
         familyNameR: 'ひなない',
         firstNameR: 'てんし',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'SWR'
       },
       {
         familyName: '',
@@ -483,7 +764,8 @@ module.exports = {
         familyNameR: '',
         firstNameR: 'きすめ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'SA'
       },
       {
         familyName: 'Kurodani',
@@ -493,7 +775,8 @@ module.exports = {
         familyNameR: 'くろだに',
         firstNameR: 'やまめ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'SA'
       },
       {
         familyName: 'Mizuhashi',
@@ -503,7 +786,8 @@ module.exports = {
         familyNameR: 'みずはし',
         firstNameR: 'ぱるすぃ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'SA'
       },
       {
         familyName: 'Hoshiguma',
@@ -513,7 +797,8 @@ module.exports = {
         familyNameR: 'ほしぐま',
         firstNameR: 'ゆうぎ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'SA'
       },
       {
         familyName: 'Komeiji',
@@ -523,7 +808,8 @@ module.exports = {
         familyNameR: 'こめいじ',
         firstNameR: 'さとり',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'SA'
       },
       {
         familyName: 'Kaenbyou',
@@ -533,7 +819,8 @@ module.exports = {
         familyNameR: 'かえんびょう',
         firstNameR: 'りん',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'SA'
       },
       {
         familyName: 'Reiuji',
@@ -543,7 +830,8 @@ module.exports = {
         familyNameR: 'れいうじ',
         firstNameR: 'うつほ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'SA'
       },
       {
         familyName: 'Komeiji',
@@ -553,7 +841,8 @@ module.exports = {
         familyNameR: 'こめいじ',
         firstNameR: 'こいし',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'SA'
       },
       {
         familyName: '',
@@ -563,7 +852,8 @@ module.exports = {
         familyNameR: '',
         firstNameR: 'なずーりん',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'UFO'
       },
       {
         familyName: 'Tatara',
@@ -573,7 +863,8 @@ module.exports = {
         familyNameR: 'たたら',
         firstNameR: 'こがさ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'UFO'
       },
       {
         familyName: 'Kumoi',
@@ -583,7 +874,8 @@ module.exports = {
         familyNameR: 'くもい',
         firstNameR: 'いちりん',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'UFO'
       },
       {
         familyName: 'Murasa',
@@ -593,7 +885,8 @@ module.exports = {
         familyNameR: 'むらさ',
         firstNameR: 'みなみつ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'UFO'
       },
       {
         familyName: 'Toramaru',
@@ -603,7 +896,8 @@ module.exports = {
         familyNameR: 'とらまる',
         firstNameR: 'しょう',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'UFO'
       },
       {
         familyName: 'Hijiri',
@@ -613,7 +907,8 @@ module.exports = {
         familyNameR: 'ひじり',
         firstNameR: 'びゃくれん',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'UFO'
       },
       {
         familyName: 'Houjuu',
@@ -623,7 +918,8 @@ module.exports = {
         familyNameR: 'ほうじゅう',
         firstNameR: 'ぬえ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'UFO'
       },
       {
         familyName: 'Himekaidou',
@@ -633,7 +929,8 @@ module.exports = {
         familyNameR: 'ひめかいどう',
         firstNameR: 'はたて',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'DS'
       },
       {
         familyName: 'Kasodani',
@@ -643,7 +940,8 @@ module.exports = {
         familyNameR: 'かそだに',
         firstNameR: 'きょうこ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'TD'
       },
       {
         familyName: 'Miyako',
@@ -653,7 +951,8 @@ module.exports = {
         familyNameR: 'みやこ',
         firstNameR: 'よしか',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'TD'
       },
       {
         familyName: 'Kaku',
@@ -663,7 +962,8 @@ module.exports = {
         familyNameR: 'かく',
         firstNameR: 'せいが',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'TD'
       },
       {
         familyName: 'Soga',
@@ -673,7 +973,8 @@ module.exports = {
         familyNameR: 'そが',
         firstNameR: 'とじこ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'TD'
       },
       {
         familyName: 'Mononobe',
@@ -683,7 +984,8 @@ module.exports = {
         familyNameR: 'もののべ',
         firstNameR: 'ふと',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'TD'
       },
       {
         familyName: 'Toyosatomimi',
@@ -693,7 +995,8 @@ module.exports = {
         familyNameR: 'とよさとみみ',
         firstNameR: 'みこ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'TD'
       },
       {
         familyName: 'Futatsuiwa',
@@ -703,7 +1006,8 @@ module.exports = {
         familyNameR: 'ふたついわ',
         firstNameR: 'まみぞう',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'TD'
       },
       {
         familyName: 'Hata',
@@ -713,7 +1017,8 @@ module.exports = {
         familyNameR: 'はた',
         firstNameR: 'こころ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'HM'
       },
       {
         familyName: '',
@@ -723,7 +1028,8 @@ module.exports = {
         familyNameR: '',
         firstNameR: 'わかさぎひめ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'DDC'
       },
       {
         familyName: '',
@@ -733,7 +1039,8 @@ module.exports = {
         familyNameR: '',
         firstNameR: 'せきばんき',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'DDC'
       },
       {
         familyName: 'Imaizumi',
@@ -743,7 +1050,8 @@ module.exports = {
         familyNameR: 'いまいずみ',
         firstNameR: 'かげろう',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'DDC'
       },
 
       {
@@ -754,7 +1062,8 @@ module.exports = {
         familyNameR: 'つくも',
         firstNameR: 'べんべん',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'DDC'
       },
       {
         familyName: 'Tsukumo',
@@ -764,7 +1073,8 @@ module.exports = {
         familyNameR: 'つくも',
         firstNameR: 'やつはし',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'DDC'
       },
       {
         familyName: 'Kijin',
@@ -774,7 +1084,8 @@ module.exports = {
         familyNameR: 'きじん',
         firstNameR: 'せいじゃ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'DDC'
       },
       {
         familyName: 'Sukuna',
@@ -784,7 +1095,8 @@ module.exports = {
         familyNameR: 'すくな',
         firstNameR: 'しんみょうまる',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'DDC'
       },
       {
         familyName: 'Horikawa',
@@ -794,7 +1106,8 @@ module.exports = {
         familyNameR: 'ほりかわ',
         firstNameR: 'らいこ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'DDC'
       },
       {
         familyName: 'Usami',
@@ -804,7 +1117,8 @@ module.exports = {
         familyNameR: 'うさみ',
         firstNameR: 'すみれこ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'VD'
       },
 
       {
@@ -815,7 +1129,8 @@ module.exports = {
         familyNameR: '',
         firstNameR: 'せいらん',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'LoLK'
       },
 
       {
@@ -826,7 +1141,8 @@ module.exports = {
         familyNameR: '',
         firstNameR: 'りんご',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'LoLK'
       },
       {
         familyName: 'Sweet',
@@ -836,7 +1152,8 @@ module.exports = {
         familyNameR: 'すいーと',
         firstNameR: 'どれみー',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'LoLK'
       },
 
       {
@@ -847,7 +1164,8 @@ module.exports = {
         familyNameR: 'きしん',
         firstNameR: 'さぐめ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'LoLK'
       },
       {
         familyName: '',
@@ -857,7 +1175,8 @@ module.exports = {
         familyNameR: '',
         firstNameR: 'くらうんぴーす',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'LoLK'
       },
       {
         familyName: '',
@@ -867,7 +1186,8 @@ module.exports = {
         familyNameR: '',
         firstNameR: 'じゅんこ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'LoLK'
       },
       {
         familyName: 'Lapislazuli',
@@ -877,7 +1197,8 @@ module.exports = {
         familyNameR: 'らぴすらずり',
         firstNameR: 'へかーてぃあ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'LoLK'
       },
       {
         familyName: 'Larva',
@@ -887,7 +1208,8 @@ module.exports = {
         familyNameR: 'らるば',
         firstNameR: 'えたにてぃ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'HSiFS'
       },
       {
         familyName: 'Sakata',
@@ -897,7 +1219,8 @@ module.exports = {
         familyNameR: 'さかた',
         firstNameR: 'ねむの',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'HSiFS'
       },
       {
         familyName: 'Komano',
@@ -907,7 +1230,8 @@ module.exports = {
         familyNameR: 'こまの',
         firstNameR: 'あうん',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'HSiFS'
       },
       {
         familyName: 'Yatadera',
@@ -917,7 +1241,8 @@ module.exports = {
         familyNameR: 'やたでら',
         firstNameR: 'なるみ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'HSiFS'
       },
       {
         familyName: 'Nishida',
@@ -927,7 +1252,8 @@ module.exports = {
         familyNameR: 'にしだ',
         firstNameR: 'さとの',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'HSiFS'
       },
       {
         familyName: 'Teireida',
@@ -937,7 +1263,8 @@ module.exports = {
         familyNameR: 'ていれいだ',
         firstNameR: 'まい',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'HSiFS'
       },
       {
         familyName: 'Matara',
@@ -947,7 +1274,8 @@ module.exports = {
         familyNameR: 'またら',
         firstNameR: 'おきな',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'HSiFS'
       },
       {
         familyName: 'Yorigami',
@@ -957,7 +1285,8 @@ module.exports = {
         familyNameR: 'よりがみ',
         firstNameR: 'じょおん',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'AoCF'
       },
       {
         familyName: 'Yorigami',
@@ -967,7 +1296,8 @@ module.exports = {
         familyNameR: 'よりがみ',
         firstNameR: 'しおん',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'AoCF'
       },
       {
         familyName: 'Ebisu',
@@ -977,7 +1307,8 @@ module.exports = {
         familyNameR: 'えびす',
         firstNameR: 'えいか',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'WBaWC'
       },
       {
         familyName: 'Ushizaki',
@@ -987,7 +1318,8 @@ module.exports = {
         familyNameR: 'うしざき',
         firstNameR: 'うるみ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'WBaWC'
       },
       {
         familyName: 'Niwatari',
@@ -997,7 +1329,8 @@ module.exports = {
         familyNameR: 'にわたり',
         firstNameR: 'くたか',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'WBaWC'
       },
       {
         familyName: 'Kicchou',
@@ -1007,7 +1340,8 @@ module.exports = {
         familyNameR: 'きっちょう',
         firstNameR: 'やちえ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'WBaWC'
       },
       {
         familyName: 'Joutouguu',
@@ -1017,7 +1351,8 @@ module.exports = {
         familyNameR: 'じょうとうぐう',
         firstNameR: 'まゆみ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'WBaWC'
       },
       {
         familyName: 'Haniyasushin',
@@ -1027,7 +1362,8 @@ module.exports = {
         familyNameR: 'はにやすしん',
         firstNameR: 'けいき',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'WBaWC'
       },
       {
         familyName: 'Kurokoma',
@@ -1037,7 +1373,8 @@ module.exports = {
         familyNameR: 'くろこま',
         firstNameR: 'さき',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'WBaWC'
       },
       {
         familyName: 'Goutokuji',
@@ -1047,7 +1384,8 @@ module.exports = {
         familyNameR: 'ごうとくじ',
         firstNameR: 'みけ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'UM'
       },
       {
         familyName: 'Yamashiro',
@@ -1057,7 +1395,8 @@ module.exports = {
         familyNameR: 'やましろ',
         firstNameR: 'たかね',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'UM'
       },
       {
         familyName: 'Komakusa',
@@ -1067,7 +1406,8 @@ module.exports = {
         familyNameR: 'こまくさ',
         firstNameR: 'さんにょ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'UM'
       },
       {
         familyName: 'Tamatsukuri',
@@ -1077,7 +1417,8 @@ module.exports = {
         familyNameR: 'たまつくり',
         firstNameR: 'みすまる',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'UM'
       },
       {
         familyName: 'Kudamaki',
@@ -1087,7 +1428,8 @@ module.exports = {
         familyNameR: 'くだまき',
         firstNameR: 'つかさ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'UM'
       },
       {
         familyName: 'Iizunamaru',
@@ -1097,7 +1439,8 @@ module.exports = {
         familyNameR: 'いいずなまる',
         firstNameR: 'めぐむ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'UM'
       },
       {
         familyName: 'Tenkyuu',
@@ -1107,7 +1450,8 @@ module.exports = {
         familyNameR: 'てんきゅう',
         firstNameR: 'ちまた',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'UM'
       },
       {
         familyName: 'Himemushi',
@@ -1117,7 +1461,8 @@ module.exports = {
         familyNameR: 'ひめむし',
         firstNameR: 'ももよ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'UM'
       },
       {
         familyName: 'Toutetsu',
@@ -1127,7 +1472,8 @@ module.exports = {
         familyNameR: 'とうてつ',
         firstNameR: 'ゆうま',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'SFW'
       },
       {
         familyName: 'Son',
@@ -1137,7 +1483,8 @@ module.exports = {
         familyNameR: 'そん',
         firstNameR: 'びてん',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'UDoALG'
       },
       {
         familyName: 'Mitsugashira',
@@ -1147,7 +1494,8 @@ module.exports = {
         familyNameR: 'みつがしら',
         firstNameR: 'えのこ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'UDoALG'
       },
       {
         familyName: 'Tenkajin',
@@ -1157,7 +1505,8 @@ module.exports = {
         familyNameR: 'てんかじん',
         firstNameR: 'ちやり',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'UDoALG'
       },
       {
         familyName: 'Yomotsu',
@@ -1167,7 +1516,8 @@ module.exports = {
         familyNameR: 'よもつ',
         firstNameR: 'ひさみ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'UDoALG'
       },
       {
         familyName: 'Nippaku',
@@ -1177,9 +1527,131 @@ module.exports = {
         familyNameR: 'にっぱく',
         firstNameR: 'ざんむ',
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
+        WorkAbbreviation: 'UDoALG'
+      },
+      {
+        familyName: 'Hieda',
+        firstName: 'Akyuu',
+        familyNameJP: '稗田',
+        firstNameJP: '阿求',
+        familyNameR: 'ひえだ',
+        firstNameR: 'あきゅう',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        WorkAbbreviation: null
+      },
+      {
+        familyName: 'Ibaraki',
+        firstName: 'Kasen',
+        familyNameJP: '茨木',
+        firstNameJP: '華扇',
+        familyNameR: 'いばらき',
+        firstNameR: 'かせん',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        WorkAbbreviation: null
+      },
+      {
+        familyName: 'Motoori',
+        firstName: 'Kosuzu',
+        familyNameJP: '本居',
+        firstNameJP: '小鈴',
+        familyNameR: 'もとおり',
+        firstNameR: 'こすず',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        WorkAbbreviation: null
+      },
+      {
+        familyName: 'Hearn',
+        firstName: 'Maribel',
+        familyNameJP: 'ハーン',
+        firstNameJP: 'マエリベリー',
+        familyNameR: 'はーん',
+        firstNameR: 'まえりべりー',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        WorkAbbreviation: null
+      },
+      {
+        familyName: 'Usami',
+        firstName: 'Renko',
+        familyNameJP: '宇佐見',
+        firstNameJP: '蓮子',
+        familyNameR: 'うさみ',
+        firstNameR: 'れんこ',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        WorkAbbreviation: null
+      },
+      {
+        familyName: 'Okunoda',
+        firstName: 'Miyoi',
+        familyNameJP: '奥野田',
+        firstNameJP: '実宵',
+        familyNameR: 'おくのだ',
+        firstNameR: 'みよい',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        WorkAbbreviation: null
+      },
+      {
+        familyName: '',
+        firstName: 'Reisen',
+        familyNameJP: '',
+        firstNameJP: 'レイセン',
+        familyNameR: '',
+        firstNameR: 'れいせん',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        WorkAbbreviation: null
+      },
+      {
+        familyName: 'Morichika',
+        firstName: 'Rinnosuke',
+        familyNameJP: '森近',
+        firstNameJP: '霖之助',
+        familyNameR: 'もりちか',
+        firstNameR: 'りんのすけ',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        WorkAbbreviation: null
+      },
+      {
+        familyName: '',
+        firstName: 'Tokiko',
+        familyNameJP: '',
+        firstNameJP: '朱鷺子',
+        familyNameR: '',
+        firstNameR: 'ときこ',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        WorkAbbreviation: null
+      },
+      {
+        familyName: 'Watatsuki',
+        firstName: 'Toyohime',
+        familyNameJP: '棉月',
+        firstNameJP: '豊姫',
+        familyNameR: 'わたつき',
+        firstNameR: 'とよひめ',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        WorkAbbreviation: null
+      },
+      {
+        familyName: 'Watatsuki',
+        firstName: 'Yorihime',
+        familyNameJP: '綿月',
+        firstNameJP: '依姫',
+        familyNameR: 'わたつき',
+        firstNameR: 'よりひめ',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        WorkAbbreviation: null
       }
-    ])
+    ]);
   },
 
   async down (queryInterface, Sequelize) {
@@ -1189,6 +1661,8 @@ module.exports = {
      * Example:
      * await queryInterface.bulkDelete('People', null, {});
      */
-    await queryInterface.bulkDelete('Characters', null, {})
+
+    await queryInterface.bulkDelete('Characters', null, {});
+    await queryInterface.bulkDelete('Works', null, {});
   }
 };

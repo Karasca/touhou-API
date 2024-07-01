@@ -4,11 +4,14 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 require('dotenv').config();
-const sequelize = require('./db.js');
+const db = require("./models");
 
-sequelize.sync({force: false}).then(() => console.log('db is ready'));
+db.sequelize.sync().then(() => {
+    console.log('db is ready');
 
-var indexRouter = require('./routes/index');
+    var indexRouter = require('./routes/index');
+    app.use('/', indexRouter);
+});
 
 var app = express();
 
@@ -19,6 +22,6 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', indexRouter);
+
 
 module.exports = app;
