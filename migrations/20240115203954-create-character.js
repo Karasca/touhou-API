@@ -28,189 +28,243 @@ module.exports = {
         name: 'the Embodiment of Scarlet Devil',
         nameJP: '東方紅魔郷',
         entryNumber: '6',
-        nameR: 'とうほうこうまきょう'
+        nameR: 'とうほうこうまきょう',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         abbreviation: 'PCB',
         name: 'Perfect Cherry Blossom',
         nameJP: '東方妖々夢',
         entryNumber: '7',
-        nameR: 'とうほうようようむ'
+        nameR: 'とうほうようようむ',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         abbreviation: 'IaMP',
         name: 'Immaterial and Missing Power',
         nameJP: '東方萃夢想',
         entryNumber: '7.5',
-        nameR: 'とうほうすいむそう'
+        nameR: 'とうほうすいむそう',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         abbreviation: 'IN',
         name: 'Imperishable Night',
         nameJP: '東方永夜抄',
         entryNumber: '8',
-        nameR: 'とうほうえいやしょう'
+        nameR: 'とうほうえいやしょう',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         abbreviation: 'PoFV',
         name: 'Phantasmagoria of Flower View',
         nameJP: '東方花映塚',
         entryNumber: '9',
-        nameR: 'とうほうかえいづか'
+        nameR: 'とうほうかえいづか',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         abbreviation: 'STB',
         name: 'Shoot the Bullet',
         nameJP: '東方文花帖',
         entryNumber: '9.5',
-        nameR: 'とうほうぶんかちょう'
+        nameR: 'とうほうぶんかちょう',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         abbreviation: 'MoF',
         name: 'Mountain of Faith',
         nameJP: '東方風神録',
         entryNumber: '10',
-        nameR: 'とうほうふうじんろく'
+        nameR: 'とうほうふうじんろく',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         abbreviation: 'SWR',
         name: 'Scarlet Weather Rhapsody',
         nameJP: '東方緋想天',
         entryNumber: '10.5',
-        nameR: 'とうほうひそうてん'
+        nameR: 'とうほうひそうてん',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         abbreviation: 'SA',
         name: 'Subterranean Animism',
         nameJP: '東方地霊殿',
         entryNumber: '11',
-        nameR: 'とうほうちれいでん'
+        nameR: 'とうほうちれいでん',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         abbreviation: 'UFO',
         name: 'Undefined Fantastic Object',
         nameJP: '東方星蓮船',
         entryNumber: '12',
-        nameR: 'とうほうせいれんせん'
+        nameR: 'とうほうせいれんせん',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         abbreviation: 'HSTS',
         name: 'Hisoutensoku',
         nameJP: '東方非想天則',
         entryNumber: '12.3',
-        nameR: 'とうほうひそうてんそく'
+        nameR: 'とうほうひそうてんそく',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         abbreviation: 'DS',
         name: 'Double Spoiler',
         nameJP: '東方文花帖',
         entryNumber: '12.5',
-        nameR: 'とうほうぶんかちょう'
+        nameR: 'とうほうぶんかちょう',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         abbreviation: 'GFW',
         name: 'Great Fairy Wars',
         nameJP: '妖精大戦争',
         entryNumber: '12.8',
-        nameR: 'ようせいだいせんそう'
+        nameR: 'ようせいだいせんそう',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         abbreviation: 'TD',
         name: 'Ten Desires',
         nameJP: '東方神霊廟',
         entryNumber: '13',
-        nameR: 'とうほうしんれいびょう'
+        nameR: 'とうほうしんれいびょう',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         abbreviation: 'HM',
         name: 'Hopeless Masquerade',
         nameJP: '東方心綺楼',
         entryNumber: '13.5',
-        nameR: 'とうほうしんきろう'
+        nameR: 'とうほうしんきろう',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         abbreviation: 'DDC',
         name: 'Double Dealing Character',
         nameJP: '東方輝針城',
         entryNumber: '14',
-        nameR: 'とうほうきしんじょう'
+        nameR: 'とうほうきしんじょう',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         abbreviation: 'ISC',
         name: 'Impossible Spell Card',
         nameJP: '弾幕アマノジャク',
         entryNumber: '14.3',
-        nameR: 'だんまくあまのじゃく'
+        nameR: 'だんまくあまのじゃく',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         abbreviation: 'ULiL',
         name: 'Urban Legend in Limbo',
         nameJP: '東方深秘録',
         entryNumber: '14.5',
-        nameR: 'とうほうしんぴろく'
+        nameR: 'とうほうしんぴろく',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         abbreviation: 'LoLK',
         name: 'Legacy of Lunatic Kingdom',
         nameJP: '東方紺珠伝',
         entryNumber: '15',
-        nameR: 'とうほうかんじゅでん'
+        nameR: 'とうほうかんじゅでん',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         abbreviation: 'AoCF',
         name: 'Antimony of Common Flowers',
         nameJP: '東方憑依花',
         entryNumber: '15.5',
-        nameR: 'とうほうひょういばな'
+        nameR: 'とうほうひょういばな',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         abbreviation: 'HSiFS',
         name: 'Hidden Star in Four Seasons',
         nameJP: '東方天空璋',
         entryNumber: '16',
-        nameR: 'とうほうてんくうしょう'
+        nameR: 'とうほうてんくうしょう',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         abbreviation: 'VD',
         name: 'Violet Detector',
         nameJP: '秘封ナイトメアダイアリー',
         entryNumber: '16.5',
-        nameR: 'ひふうないとめあだいありー'
+        nameR: 'ひふうないとめあだいありー',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         abbreviation: 'WBaWC',
         name: 'Wily Beast and Weakest Creature',
         nameJP: '東方鬼形獣',
         entryNumber: '17',
-        nameR: 'とうほうきけいじゅう'
+        nameR: 'とうほうきけいじゅう',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         abbreviation: 'SFW',
         name: 'Sunken Fossil World',
         nameJP: '東方剛欲異聞　～ 水没した沈愁地獄',
         entryNumber: '17.5',
-        nameR: 'とうほうごうよくいぶん　～ すいぼつしたちんしゅうじごく'
+        nameR: 'とうほうごうよくいぶん　～ すいぼつしたちんしゅうじごく',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         abbreviation: 'UM',
         name: 'Unconnected Marketeers',
         nameJP: '東方紅龍洞',
         entryNumber: '18',
-        nameR: 'とうほうこうりゅうどう'
+        nameR: 'とうほうこうりゅうどう',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         abbreviation: 'HBM',
         name: '100th Black Market',
         nameJP: 'バレットフィリア達の闇市場',
         entryNumber: '18.5',
-        nameR: 'ばれっとふぃりあのやみいちば'
+        nameR: 'ばれっとふぃりあのやみいちば',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         abbreviation: 'UDoALG',
         name: 'Unfinished Dream of All Living Ghost',
         nameJP: '東方獣王園',
         entryNumber: '19',
-        nameR: 'とうほうじゅうおうえん'
+        nameR: 'とうほうじゅうおうえん',
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
     ])
 
